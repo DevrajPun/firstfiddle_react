@@ -4,7 +4,7 @@ function Careers() {
   return (
     <>
       {/* first */}
-      <div className="mt-[64px] md:mt-0 bg-[url('https://pn-paul.netlify.app/image/new-careers-1.jpg')] w-100">
+      <div className="mt-[64px] md:mt-0 bg-[url('https://pn-paul.netlify.app/image/new-careers-1.jpg')] w-full">
         <h1 className="py-[100px] md:py-[250px] text-2xl md:text-6xl text-white text-center font-[pargue]">
           CAREERS
         </h1>
