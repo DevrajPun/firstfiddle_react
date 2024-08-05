@@ -19,7 +19,7 @@ function Nav() {
   const handleClose = () => setOpen(false);
 
   const navlist = (
-    <ul className="flex flex-col md:flex-row md:gap-5 text-white font-thin font-serif text-[18px] text-center">
+    <ul className="flex flex-col md:flex-row md:gap-5 text-white uppercase font-thin font-serif text-[16px] text-center">
       {navItems.map((item, index) => (
         <li
           key={index}
@@ -73,12 +73,13 @@ function Nav() {
         <div className="menu hidden md:block">{navlist}</div>
         {/* mobile */}
         <div
-          className={`md:hidden transition-all duration-500 ease-in-out ${
+          className={`md:hidden transition-all duration-500 ease-in-out z-20 ${
             open
               ? "max-h-screen opacity-100"
               : "max-h-0 opacity-0 overflow-hidden"
           }`}
         >
+          <br />
           {navlist}
         </div>
       </nav>

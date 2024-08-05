@@ -35,7 +35,7 @@ function Carousel() {
   return (
     <div
       id="default-carousel"
-      className="relative w-full overflow-hidden md:mt-0 mt-[68px]"
+      className="relative z-0 w-full overflow-hidden md:mt-0 mt-[68px]"
     >
       {/* Carousel wrapper */}
       <div
